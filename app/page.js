@@ -25,7 +25,7 @@ export default function Home() {
         </nav >
         <div className=' p-10 flex flex-col items-center justify-center'>
           <div className='flex mx-auto p-2 bg-gradient-to-r from-cyan-500 to-blue-700 rounded-full w-60 h-60 relative overflow-hidden mt-30 md:h-90 md:w-90'>
-            <Image src={deved} layout='fill' objectFit='cover' />
+            <Image src={deved}alt="Rishabh Kamath's profile picture" layout='fill' objectFit='cover' />
           </div>
           <div className='text-center p-5 font-poppins'>
             <h2 className='text-5xl py-2 text-teal-400 font-bold'> Rishabh Kamath</h2>
