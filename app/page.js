@@ -42,22 +42,17 @@ export default function Home() {
       <section className='font-poppins mx-auto'>
         <div className='p-10 flex flex-col'>
           <div className='grid gap-6 grid-flow-row-dense grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-between items-center'>
-            <h3 className='text-5xl font-bold'>About Me</h3>
+            <div className='text-5xl font-bold'>About Me</div>
             <div className='col-span-1 text-sm text-justifyAll py-4 leading-8 text-gray-500'>Hi, I'm Rishabh, a Full Stack Developer and Data Scientist. With expertise in frontend and backend technologies, I craft seamless user experiences and leverage data to drive insights. Passionate about continuous learning, I thrive on solving complex problems and staying at the cutting edge of technology.
-            </div>
-            
-
+          </div>
           </div>
         </div>
         <div className='flex justify-center  items-center gap-10'>
         <div className='grid gap-8  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center '>
-            
-            
                 <div className='col p-10 text-center bg-cyan-200 rounded-xl relative '>
                   <div className='font-regular text-md'>Experience</div>
                   <div className='text-3xl py-2 font-bold'>1+ years</div>
                 </div>
-
               <div className='col p-10 bg-yellow-400  rounded-xl relative'>
                 <div className='font-regular text-md mb-2'>Education</div>
                 <div className='text-sm py-1'>BCA</div>
