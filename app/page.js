@@ -43,8 +43,7 @@ export default function Home() {
         <div className='p-10 flex flex-col'>
           <div className='grid gap-6 grid-flow-row-dense grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-between items-center'>
             <div className='text-5xl font-bold'>About Me</div>
-            <div className='col-span-1 text-sm text-justifyAll py-4 leading-8 text-gray-500'>Hi, I'm Rishabh, a Full Stack Developer and Data Scientist. With expertise in frontend and backend technologies, I craft seamless user experiences and leverage data to drive insights. Passionate about continuous learning, I thrive on solving complex problems and staying at the cutting edge of technology.
-          </div>
+            <div className='col-span-1 text-sm text-justifyAll py-4 leading-8 text-gray-500'>Hi, I'm Rishabh, a Full Stack Developer and Data Scientist. With expertise in frontend and backend technologies, I craft seamless user experiences and leverage data to drive insights. Passionate about continuous learning, I thrive on solving complex problems and staying at the cutting edge of technology.</div>
           </div>
         </div>
         <div className='flex justify-center  items-center gap-10'>
