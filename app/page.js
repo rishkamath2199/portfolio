@@ -5,16 +5,16 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 export default function Home() {
   return (
-    <main className='bg-white p-6   '>
+    <main className='bg-white p-8   '>
       <nav className='py-4 flex justify-between'>
-          <h1 className='text-xl'></h1>
+          <h1 className='text-xl'>YOOOOOOO</h1>
           <ul className='flex items-center'>
             <li>
-              <BsFillMoonStarsFill lassName='cursor-pointer text-2xl'></BsFillMoonStarsFill>
+              <BsFillMoonStarsFill className='cursor-pointer text-2xl'></BsFillMoonStarsFill>
             </li>
             <li>
               <a
-                className='bg-gradient-to-r from-cyan-300 to-blue-700 text-white font-poppins px-4 py-2 rounded-md ml-8'
+                className='bg-gradient-to-r from-cyan-300 to-blue-700 text-white font-poppins font-bold px-4 py-2 rounded-md ml-8'
                 href='#'
               >
                 Resume
@@ -22,47 +22,44 @@ export default function Home() {
             </li>
           </ul>
         </nav >
-      <section className=' m-4 min-h-fit align-middle flex flex-col justify-between items-center p-2.5 '>
-        <div className=' py-10 items-center '>
-          <div className='flex mx-auto p-2 bg-gradient-to-r from-cyan-500 to-blue-700 rounded-full w-60 h-60 relative overflow-hidden mt-30 md:h-90 md:w-90'>
+      <section className='  min-h-screen flex flex-col justify-center text-center items-center  p-2.5 '>
+        <div className=' '>
+          {/* <div className='flex mx-auto p-4 bg-gradient-to-r from-teal-500 to-blue-300 rounded-xl w-60 h-60 relative overflow-hidden mt-30 md:h-90 md:w-90'>
             <Image src={deved}alt="Rishabh Kamath's profile picture" layout='fill' objectFit='cover' />
-          </div>
-          <div className='text-center  font-poppins'>
-            <h2 className='text-4xl py-4 text-teal-500 font-bold'> Rishabh Kamath</h2>
-            <h3 className='text-sm py-1 text-gray-600'>
+          </div> */}
+          <div className=''>
+            <h2 className='text-7xl py-4 text-teal-500 font-black font-playfair'> Rishabh Kamath</h2>
+            <h3 className='text-2xl font-playfair py-2 font-medium text-gray-500'>
               Full Stack Developer and Data Scientist
             </h3>
           </div>
-          <div className='flex text-4xl py-6 justify-center gap-8 text-gray-800'>
+          <div className='flex justify-center text-4xl py-8  gap-8 text-gray-600'>
             <AiFillLinkedin></AiFillLinkedin>
             <AiFillGithub></AiFillGithub>
           </div>
         </div>
       </section>
-      <section className=' min-h-fit m-4 font-poppins  py-10'>
-        <div className='py-10 flex flex-col '>
-          <div className='grid gap-4 grid-flow-row-dense grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 justify-between items-center'>
-            <div className='text-4xl font-bold'>About Me</div>
-            <div className='col-span-1 text-sm text-justifyAll py-4 leading-8 text-gray-500'>Hi, I am Rishabh, a Full Stack Developer and Data Scientist. With expertise in frontend and backend technologies, I craft seamless user experiences and leverage data to drive insights. Passionate about continuous learning, I thrive on solving complex problems and staying at the cutting edge of technology.</div>
-          </div>
+      <section className='min-h-screen flex flex-col p-2.5'>
+  <div className='flex flex-col md:flex-row'>
+    <div className='w-full md:w-1/2'>
+      <div className='m-4 p-4 border-2 border-teal-500'>
+        <p className='text-4xl font-bold font-playfair p-4'>About Me</p>
+        <div className='p-2 m-2 text-md relative font-pop text-justify text-gray-500'>
+          Proficient in both full-stack development and data science, I specialize in crafting elegant code solutions to overcome complex challenges. My expertise spans the entire development spectrum, from designing robust backends to implementing intuitive user interfaces. Committed to delivering excellence, I approach each project with a passion for efficiency and user-centric design. In my coding endeavors, a cup of coffee is my constant companion, inspiring creativity as I strive to push technological boundaries.
         </div>
-        <div className='flex justify-center  items-center gap-10'>
-        <div className='grid gap-8  grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center '>
-                <div className='col p-10 border-teal-500 border-4  rounded-xl relative '>
-                  <div className='font-regular text-md'>Experience</div>
-                  <div className='text-2xl py-2 font-bold'>1+ years</div>
-                </div>
-              <div className='col p-10 border-teal-500 border-4  rounded-xl relative'>
-                <div className='font-regular text-md mb-2'>Education</div>
-                <div className='text-sm py-1'>BCA</div>
-                <div className='text-sm py-1'>MSc in CA</div>
-              </div>
-           </div> 
-            </div>
-      </section>
-      <section className=' min-h-fit m-4 font-poppins  py-10'>
-        <div className='text-4xl font-bold'>Skills</div>
-      </section>
+      </div>
+    </div>
+    <div className='w-full md:w-1/2'>
+      <div className='font-playfair m-4 p-4 border-2 border-teal-500'>
+        <p className='text-4xl font-bold p-4'>About Me</p>
+        <div className='p-4 m-6 text-xl font-poppins text-medium text-justify text-gray-600'>
+          {/* Add your content for the second column here */}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
   );
 }
