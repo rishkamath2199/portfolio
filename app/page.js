@@ -29,7 +29,7 @@ export default function Home() {
 
             {/* Name and Title */}
             <div className=''>
-              <div className='text-4xl sm:text-5xl py-4 text-gray-300  font-black font-playfair'>Hello I'm</div>
+              <div className='text-4xl sm:text-5xl py-4 text-gray-300  font-black font-playfair'>Hello I am</div>
               <h1 className='text-7xl md:text-9xl xs:text-8xl py-4 text-black font-black font-playfair'>Rishabh Kamath</h1>
               
             </div>
