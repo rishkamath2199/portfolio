@@ -33,8 +33,8 @@ export default function Home() {
             {/* Text Content */}
             <div className='flex flex-col justify-center items-left order-2 md:order-2'>
               <div className='text-xl xl:text-2xl sm:text-xl xs:text-4xl py-2 px-4 text-purple-500 font-medium font-poppins'>Hello I am</div>
-              <h1 className='text-5xl xl:text-6xl sm:py-2 xs:text-6xl xs:py-2 py-2 px-4 font-bold justify-evenly font-poppins'>Rishabh Kamath</h1>
-              <div className='text-lg xl:text-lg sm:text-sm xs:text-lg  py-2 m-6 text-justify tracking-tighter font-medium font-poppins'>Experienced in Deep Learning, I am dedicated to applying cutting-edge Neural Network designs to practical challenges. With a strong foundation in data science and computer vision, I prioritize teamwork, clear communication, and continuous learning. Let us connect and innovate together!</div>
+              <h1 className='text-5xl xl:text-6xl sm:py-2 xs:text-6xl xs:py-2 py-2 px-4 font-bold justify-evenly font-playfair'>Rishabh Kamath</h1>
+              <div className='text-lg xl:text-lg sm:text-sm xs:text-lg  py-2 m-6 text-justify tracking-tighter font-medium font-playfair'>Experienced in Deep Learning, I am dedicated to applying cutting-edge Neural Network designs to practical challenges. With a strong foundation in data science and computer vision, I prioritize teamwork, clear communication, and continuous learning. Let us connect and innovate together!</div>
              
             </div>
             
